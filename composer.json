@@ -1,0 +1,20 @@
+{
+    "name": "sprained/feel-api",
+    "authors": [
+        {
+            "name": "Gabriel Resende",
+            "email": "gabriel.almeida.resende@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Feel\\": "src"
+        },
+        "files": [
+            "src/config/Env.php"
+        ]
+    },
+    "require": {
+        "sprained/validator-php": "^1.2"
+    }
+}
